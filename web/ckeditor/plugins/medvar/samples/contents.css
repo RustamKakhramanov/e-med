@@ -1,0 +1,75 @@
+/*
+Copyright (c) 2014, CKSource - Frederico Knabben. All rights reserved.
+Licensed under the terms of the MIT License (see LICENSE.md).
+*/
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    background: #eceff3;
+    width: 6px;
+    height: 6px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #416586;
+}
+
+.varbox {
+    display: inline-block;
+    border: 1px #ECEFF3 solid;
+    margin: 0px 2px;
+    padding: 2px 5px;
+    line-height: 14px;
+    border-radius: 2px;
+}
+
+.varbox .name {
+    vertical-align: middle;
+}
+
+.varbox .var-icon {
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    position: relative;
+    background: #fff url(../icons/sprite.png) no-repeat;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.varbox .icon-int {
+    background-color: #cee1f7;
+    background-position: -32px 4px;
+    /*    background-position: -218px -236px;*/
+}
+
+.varbox .icon-date {
+    background-color: #e5d0ff;
+    background-position: -70px 2px;
+}
+
+.varbox .icon-string {
+    background-color: #c4f3f2;
+    background-position: 2px 4px;
+}
+
+.varbox .icon-select {
+    background-color: #fce9e1;
+    background-position: -140px 2px;
+}
+
+.varbox .icon-rel {
+    background-color: #9EBAF9;
+    background-position: -181px 3px;
+}
+
+.varbox .icon-textarea {
+    background-color: #FFEDA9;
+    background-position: -222px 3px;
+}
+
+.varbox .icon-time {
+    background-color: #a9ffc6;
+    background-position: -256px 2px;
+}
